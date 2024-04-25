@@ -316,3 +316,8 @@ nav ul .fa-solid{
     top: 25px;
     cursor: pointer;
 }
+#msg{
+    color: #52b799;
+    margin-top: -40px;
+    display: block;
+}
