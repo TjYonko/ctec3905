@@ -20,7 +20,71 @@
                     <li><a href="">Contact</a></li>                             
                 </ul>
             </nav>
+            <div class="header-text">
+                <p>Progect Portfolio</p>
+                <h1>Hello I'm <span>Tony </span><br>Johnson From <br>Milton Keynes</h1>
+            </div>
         </div>
     </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I’m Tony, a third-year Software Engineering student with a passion for building scalable software solutions and a keen interest in emerging technologies.
+                         Currently, I'm studying at Demontfort University, where I've honed my skills in languages such as Java, Python, and JavaScript.
+                          My academic projects include developing a real-time chat application and a machine learning model for predicting trends.
+                           I'm committed to continuous learning and am currently exploring mobile app development and AI. 
+                        Whether working on team projects or individual assignments, I bring enthusiasm and a detail-oriented approach to ensure high-quality results and innovative solutions.</p>
+                       
+                        <div class="tab-titles ">
+                            <p class="tab-links active-link" onclick="opentab('skills') " >Skills</p>
+                            <p class="tab-links"onclick="opentab('projects') ">Projects</p>
+                            <p class="tab-links"onclick="opentab('education') ">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>ui?UX</span> <br> design web app interface</li>
+                                <li><span>Web development</span> <br>web app deveopment</li> 
+                                <li><span>App development</span> <br> app interface</li> 
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>project1</span> <br> movie recommendation app</li>
+                                <li><span>project2</span> <br> oo deveopment</li> 
+                                <li><span>App development</span> <br>android studio</li> 
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - current</span> <br> Demontfort Univerity/li>
+                                <li><span>2013 - 2021</span> <br>St Paul's Catholic School</li>
+                            </ul>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const tablinks = document.getElementsByClassName("tab-links");
+        const tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
 </body>
 </html>
