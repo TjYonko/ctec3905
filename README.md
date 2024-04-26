@@ -27,6 +27,13 @@ Accessibility and Responsiveness
 The website is designed to be fully responsive, ensuring a seamless experience across various devices and screen sizes. 
 It incorporates accessibility features such as keyboard navigable menus and adequate color contrasts to cater to a wider audience.
 
+External Assets
+
+The website utilizes high-quality external assets to enhance the visual appeal and functionality:
+Images: Most of the imagery comes from Unsplash and unDraw, which provide free, high-quality illustrations and photographs suitable for all types of web projects.
+Icons: Icons provided by FontAwesome under their free tier are used throughout the site to enhance the UI and UX by visually representing various elements and actions.
+
+
 Project Objectives
 
 Showcase Personal Projects and Skills: The primary objective is to highlight my projects and the diverse skills I have developed during my academic tenure.
